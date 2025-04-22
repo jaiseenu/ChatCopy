@@ -3,6 +3,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	</head>
 <body>
+
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -10,8 +11,8 @@
 
 			embeddedservice_bootstrap.init(
 				'00Dce000001LoFm',
-				'Web_Chat',
-				'https://pflms--qa.sandbox.my.site.com/ESWWebChat1739454676991',
+				'Copy_Web_Chat',
+				'https://pflms--qa.sandbox.my.site.com/ESWCopyWebChat1745250621922',
 				{
 					scrt2URL: 'https://pflms--qa.sandbox.my.salesforce-scrt.com'
 				}
@@ -21,7 +22,8 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://pflms--qa.sandbox.my.site.com/ESWWebChat1739454676991/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://pflms--qa.sandbox.my.site.com/ESWCopyWebChat1745250621922/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 
 
 </body>
