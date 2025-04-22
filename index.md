@@ -6,6 +6,7 @@
 
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
+		console.log('::%::', embeddedservice_bootstrap);
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
